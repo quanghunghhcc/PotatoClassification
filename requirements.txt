@@ -1,0 +1,9 @@
+torch>=2.0.0
+torchvision>=0.15.0
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+numpy>=1.23.0
+pillow>=9.5.0
+opencv-python>=4.7.0
+pyserial>=3.5
+onnx>=1.14.0

@@ -1,0 +1,2 @@
+dataset_archive,total_images,total_class_folders,source_format,source_dimensions,output_format,output_dimensions,color_mode,exif_orientation,resampling_method,aspect_ratio_preserved,padding_method,jpeg_quality,optimize,subsampling,processing_note
+potato_disease_dataset.zip,9106,18,JPG,approximately 4096x3072 pixels,JPG,512x512 pixels,RGB,corrected using EXIF transpose,Lanczos,yes,centered padding using average color estimated from four near-corner pixels after a 64x64 reduction,95,true,0,Dataset-level processing manifest for the public 512x512 repository release.

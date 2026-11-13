@@ -1,0 +1,20 @@
+=== KẾT QUẢ THỰC NGHIỆM ĐỒ ÁN IOT & AI ===
+Tập dữ liệu: TEST SET (Tập kiểm thử độc lập)
+Tổng số ảnh: 421
+Mô hình: MobileNetV2 (Transfer Learning)
+Accuracy: 99.76%
+Latency: 27.20 ms/ảnh
+
+Chi tiết Precision - Recall - F1-score:
+              precision    recall  f1-score   support
+
+        good     1.0000    0.9964    0.9982       277
+    not_good     0.9931    1.0000    0.9965       144
+
+    accuracy                         0.9976       421
+   macro avg     0.9966    0.9982    0.9974       421
+weighted avg     0.9976    0.9976    0.9976       421
+
+Ma trận nhầm lẫn:
+[[276   1]
+ [  0 144]]
