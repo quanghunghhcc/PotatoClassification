@@ -1,0 +1,6 @@
+idf_component_register(
+    SRCS "main.cpp"
+    INCLUDE_DIRS "."
+    REQUIRES esp-tflite-micro esp32-camera esp_wifi esp_event esp_netif nvs_flash esp_http_client driver
+    EMBED_FILES "best_potato_model_from_pth_int8.tflite"
+)

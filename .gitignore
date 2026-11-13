@@ -1,0 +1,24 @@
+# Python environments and cache
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ESP-IDF generated files
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+
+# Local conversion/training outputs (the firmware model is kept under mobilenet_idf)
+/models/tinyml/
+/models/pth_tflite_conversion/
+/models/best_potato_model_from_pth*.tflite
+/models/best_potato_model_from_pth*_test_report.txt
+
+# Empty command artifacts created at the repository root
+/App
+/py
+/python
